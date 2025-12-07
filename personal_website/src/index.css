@@ -74,28 +74,32 @@
 
 @layer base {
   :root {
-    --background: 223 80% 96%;
-    --foreground: 230 60% 15%;
+    --background: 190 80% 97%;
+    --foreground: 200 60% 15%;
 
     --card: 0 0% 100%;
 
-    --primary: 245 85% 55%;
-    --primary-foreground: 223 80% 96%;
+    /* Cyan Primary */
+    --primary: 188 75% 55%;
+    --primary-foreground: 190 80% 97%;
 
-    --border: 225 25% 84%;
+    /* Soft cyan border */
+    --border: 192 25% 85%;
   }
 
   .dark {
-    --background: 234 30% 8%;
-    --foreground: 220 30% 90%;
+    --background: 200 50% 10%;
+    --foreground: 188 40% 92%;
 
-    --card: 234 18% 13%;
+    --card: 200 35% 16%;
 
-    --primary: 245 85% 65%;
-    --primary-foreground: 220 30% 90%;
+    /* Bright Aqua Cyan */
+    --primary: 188 75% 65%;
+    --primary-foreground: 200 50% 10%;
 
-    --border: 230 20% 25%;
+    --border: 192 45% 30%;
   }
+
 
 
 
