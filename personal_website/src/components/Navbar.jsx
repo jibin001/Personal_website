@@ -49,13 +49,13 @@ export const Navbar = () => {
 
                 {/* mobile nav */}
 
-                    <button onClick={() => setIsMenuOpen((prev) => !prev)}
-                        className="md:hidden p-2 text-foreground z-50"
-                        aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-                        >
-                        {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-                        {" "}
-                        </button>
+                <button onClick={() => setIsMenuOpen((prev) => !prev)}
+                    className="md:hidden p-2 text-foreground z-50"
+                    aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+                >
+                    {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+                    {" "}
+                </button>
 
 
                 <div className={cn(
@@ -63,16 +63,16 @@ export const Navbar = () => {
                     "transition-all duration-300 md:hidden",
                     isMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
                 )}>
-                <div className="flex flex-col  space-y-8 text-xl">
-                    {navItems.map((item, key) => (
-                        <a key={key} href={item.href} 
-                        className="text-foreground/80 hover:text-primary transition-color duration-300"
-                        onClick={() => setIsMenuOpen(false)}>
-                            {item.name}
-                        </a>
-                    ))}
-                </div>
+                    <div className="flex flex-col  space-y-8 text-xl">
+                        {navItems.map((item, key) => (
+                            <a key={key} href={item.href}
+                                className="text-foreground/80 hover:text-primary transition-color duration-300"
+                                onClick={() => setIsMenuOpen(false)}>
+                                {item.name}
+                            </a>
+                        ))}
                     </div>
+                </div>
             </div>
         </nav>
     )

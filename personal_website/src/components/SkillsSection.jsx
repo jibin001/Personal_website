@@ -3,22 +3,22 @@ import { cn } from "@/lib/utils";
 
 const skills = [
     //Frontend Skills
-    { name: "HTML/CSS", level:95, category: "frontend"},
-    { name: "JavaScript", level:90, category: "frontend" },
-    { name: "React", level:85, category: "frontend" },
-    { name: "Tailwind CSS", level:80, category: "frontend" },
+    { name: "HTML/CSS", level: 95, category: "frontend" },
+    { name: "JavaScript", level: 90, category: "frontend" },
+    { name: "React", level: 85, category: "frontend" },
+    { name: "Tailwind CSS", level: 80, category: "frontend" },
 
     //Backend skills
-    { name: "Node.js", level:75, category: "backend" },
-    { name: "Express.js", level:70, category: "backend" },
-    { name: "MongoDB", level:65, category: "backend" },
-    { name: "SQL", level:60, category: "backend" },
+    { name: "Node.js", level: 75, category: "backend" },
+    { name: "Express.js", level: 70, category: "backend" },
+    { name: "MongoDB", level: 65, category: "backend" },
+    { name: "SQL", level: 60, category: "backend" },
 
     //Tools
-    { name: "Git", level:85, category: "tools" },
-    { name: "Webpack", level:70, category: "tools" },
-    { name: "Docker", level:60, category: "tools" },
-    { name: "VS Code", level:95, category: "tools" },
+    { name: "Git", level: 85, category: "tools" },
+    { name: "Webpack", level: 70, category: "tools" },
+    { name: "Docker", level: 60, category: "tools" },
+    { name: "VS Code", level: 95, category: "tools" },
 ]
 
 
@@ -40,14 +40,14 @@ export const SkillsSection = () => {
 
                 <div className="flex flex-wrap justify-center gap-4 mb-12">
                     {categories.map((category, key) => (
-                        <button key={key} 
-                        onClick={() => setActiveCategory(category)}
-                        className={cn(
-                            "px-5 py-2 rounded-full transition-colors duration-300 capitalize",
-                            activeCategory === category 
-                            ? "bg-primary text-primary-foreground" 
-                            : "bg-secondary/70 text-foreground hover:bg-secondary"
-                        )}>
+                        <button key={key}
+                            onClick={() => setActiveCategory(category)}
+                            className={cn(
+                                "px-5 py-2 rounded-full transition-colors duration-300 capitalize",
+                                activeCategory === category
+                                    ? "bg-primary text-primary-foreground"
+                                    : "bg-secondary/70 text-foreground hover:bg-secondary"
+                            )}>
                             {category}
                         </button>
                     ))}
@@ -63,7 +63,7 @@ export const SkillsSection = () => {
                             </div>
                             <div className="w-full bg-background/50 h-2 rounded-full overflow-hidden">
                                 <div className="bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease-out"
-                                style={{width: skill.level + "%"}} />
+                                    style={{ width: skill.level + "%" }} />
                             </div>
                             <div className="text-right mt-1">
                                 <span className="text-sm text-muted-foreground">{skill.level}%</span>
