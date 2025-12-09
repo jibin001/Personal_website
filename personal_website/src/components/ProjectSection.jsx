@@ -3,27 +3,27 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react"
 const projects = [
     {
         id: 1,
-        title: "Youtube Clone",
-        description: "A full-stack YouTube clone application that allows users to browse, search, and watch videos, as well as upload their own content. Built with React for the frontend and Node.js with Express for the backend.",
-        image: "/projects/project1.png",
-        tags: ["HTML", "CSS"],
-        githubLink: "https://github.com/jibin001/html-css.git",
+        title: "Hospital Admin Assistant",
+        description: "This project was developed using Google's latest Agent Development Kit (ADK), enabling the creation of an intelligent Healthcare Operations Automation Assistant that streamlines hospital administration workflows. The system allows staff to interact conversationally with operational data and receive real-time actions and responses regarding room status, OT schedules, patient information, and task updates.",
+        image: "/projects/project1.jpg",
+        tags: ["Python", "Google-ADK",],
+        githubLink: "https://github.com/jibin001/Patient-Workflow---Operations-Assistant--Hospital-Admin-Agent-.git",
 
     },
     {
         id: 2,
         title: "Login Authentication System",
-        description: "A full-stack YouTube clone application that allows users to browse, search, and watch videos, as well as upload their own content. Built with React for the frontend and Node.js with Express for the backend.",
-        image: "/projects/project2.png",
-        tags: ["HTML", "CSS", "Flask"],
+        description: "Created a Login Authentication System using Flask, implementing secure user registration, encrypted password handling, form validation, protected routes, and structured error management. While building this project, I focused on applying strong authentication practices and clean backend logic to ensure both functionality and security.",
+        image: "/projects/project3.png",
+        tags: ["Python","HTML", "CSS", "Flask"],
         githubLink: "https://github.com/jibin001/Password_project.git",
     },
     {
         id: 3,
         title: "Ecommerece Website",
-        description: "A full-stack YouTube clone application that allows users to browse, search, and watch videos, as well as upload their own content. Built with React for the frontend and Node.js with Express for the backend.",
-        image: "/projects/project3.png",
-        tags: ["HTML", "CSS", "React", "Flask"],
+        description: "Engineered a feature-rich E-commerce application, significantly focused on transforming the codebase to use modern React with TypeScript for enhanced maintainability and type safety. The project began with a Vite setup and included converting the application structure to utilize TypeScript, reducing potential runtime errors.",
+        image: "/projects/project2.png",
+        tags: ["HTML", "CSS", "React"],
         githubLink: "https://github.com/jibin001/react-course.git",
     },
 ]
