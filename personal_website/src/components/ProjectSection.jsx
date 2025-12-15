@@ -15,7 +15,7 @@ const projects = [
         title: "Login Authentication System",
         description: "Created a Login Authentication System using Flask, implementing secure user registration, encrypted password handling, form validation, protected routes, and structured error management. While building this project, I focused on applying strong authentication practices and clean backend logic to ensure both functionality and security.",
         image: "/projects/project3.png",
-        tags: ["Python","HTML", "CSS", "Flask"],
+        tags: ["Python", "HTML", "CSS", "Flask"],
         githubLink: "https://github.com/jibin001/Password_project.git",
     },
     {
@@ -26,7 +26,32 @@ const projects = [
         tags: ["HTML", "CSS", "React"],
         githubLink: "https://github.com/jibin001/react-course.git",
     },
+    {
+        id: 4,
+        title: "Walmart Sales Data Analysis",
+        description: "Conducted comprehensive sales data analysis on Walmart's multi-branch transactional dataset to identify high-performing product lines and customer behavior patterns.Performed end- to - end analysis including data cleaning, exploratory data analysis, and feature engineering by creating time - based variables and categorical classifications.",
+        image: "/projects/sql_project.jpg",
+        tags: ["SQL"],
+        githubLink: "https://github.com/jibin001/Walmart_Sales_Data_Analysis.git",
+    },
+    {
+        id: 5,
+        title: "Chatbot Project",
+        description: "I developed a ChatBot website to put my learning into practice. This project strengthened my understanding of core React concepts such as components, state management, hooks (useState, useEffect), and event handling. The website allows users to interact with a responsive ChatBot that can currently handle simple queries like getting today's date, flipping a coin, or rolling a dice. ",
+        image: "/projects/chat.png",
+        tags: ["HTML", "CSS", "React"],
+        githubLink: "https://github.com/jibin001/Chatbot.git",
+    },
+    {
+        id: 6,
+        title: "Youtube Clone",
+        description: "successfully built a YouTube frontend clone as my project! This project helped me strengthen my understanding of web development fundamentals — especially HTML structure, CSS Flexbox, Grid, and responsive design. I recreated YouTube's homepage layout, including the navbar, sidebar, and video grid, focusing on achieving a clean and realistic user interface.",
+        image: "/projects/yt.png",
+        tags: ["HTML", "CSS"],
+        githubLink: "https://github.com/jibin001/html-css.git",
+    },
 ]
+
 
 
 
